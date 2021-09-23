@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghulsan Website Form Desain Web</title>
+</head>
+<body bgcolor="#00FF00">
+    <form action="results.html" method="GET">
+        <fieldset>
+        <h1 align="center">Form Registrasi</h1>
+        <table border="0" align="center">
+        <div>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name" required></td>
+            </tr>
+        </div>  
+        <div>
+            <label>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+            </label>
+        </div> 
+        <div>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label></td>
+            </tr>
+        </div>    
+        <div>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td><label for="date">D.O.B:</label></td>
+                <td><input type="date" name="date" id="date" min="2019-06-10" required></td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td><label for="selectgames">Select Games:</label></td>
+                <td><input type="checkbox" name="selectgames" id="hockey">
+                <label for="hockey">Hockey</label>
+                <input type="checkbox" name="selectgames" id="football">
+                <label for="football">Football</label>
+                <input type="checkbox" name="selectgames" id="cricket">
+                <label for="cricket">Cricket</label>
+                <input type="checkbox" name="selectgames" id="volleyball">
+                <label for="volleyball">VolleyBall</label></td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td><label for="maritalstatus">Marital Status:</label></td>
+                <td><input type="radio" name="status" id="married" required>
+                <label for="married">Married</label>
+                <input type="radio" name="status" id="unmarried" required>
+                <label for="unmarried">Unmarried</label></td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <td><button type="reset">Reset</button>
+                    <button type="submit">Submit</button></td>
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <td><input type="checkbox" name="accept" id="accept">
+                    <label for="accept">I accept this agrement</label></td>
+                </td>
+            </tr>
+        </div>
+    </table>
+    </fieldset>
+    </form>
+</body>
+</html>
